@@ -279,7 +279,7 @@ def bcoins():
 
         #ALERT
         token = '5004920470:AAEcp9woUvXMZocTZCDSsz3w7bKmQhHjeQc'
-        message = "2 - Bcoins Now Account 🪙 💵"
+        message = "5 - Bcoins Now Account 🪙 💵"
         telegram = f'https://api.telegram.org/bot{token}/sendMessage?chat_id={1514857247}&text={message}'
         resultado = requests.get(telegram)
         print(resultado.json())
@@ -369,7 +369,7 @@ def Alert():
 
     #ALERT
     token = '2052342020:AAG5ZW9--7KFef6PmNFTA60I9MbCwueVSQQ'
-    message = "2 - Account Activated 🤘"
+    message = "5 - Account Activated 🤘"
     telegram = f'https://api.telegram.org/bot{token}/sendMessage?chat_id={-729635018}&text={message}'
     resultado = requests.get(telegram)
     print(resultado.json())
