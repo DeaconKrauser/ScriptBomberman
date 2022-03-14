@@ -333,6 +333,9 @@ def login():
         solveCaptcha(pause)
         login_attempts = login_attempts + 1
         
+     if clickBtn(images['connect-wallet-2'], timeout = 10):
+        logger('🎉 Connect wallet button 2 detected, logging in now!')
+        login_attempts = login_attempts + 1        
 
     if clickBtn(images['select-wallet-2'], name='sign button', timeout=8):
 
